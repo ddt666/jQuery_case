@@ -19,7 +19,7 @@
             $(function () {
                //1.获取所有的ul下的li
                 var citys = $("#city li");
-               /* //2.遍历li
+                //2.遍历li
                 for (var i = 0; i < citys.length; i++) {
                     if("上海" == citys[i].innerHTML){
                         //break; 结束循环
@@ -28,9 +28,8 @@
                     //获取内容
                     alert(i+":"+citys[i].innerHTML);
 
-                }*/
+                }
 
-/*
                 //2. jq对象.each(callback)
                 citys.each(function (index,element) {
                     //3.1 获取li对象 第一种方式 this
@@ -47,11 +46,11 @@
                         return true;
                     }
                     alert(index+":"+$(element).html());
-                });*/
+                });
                 //3 $.each(object, [callback])
-               /* $.each(citys,function () {
+                $.each(citys,function () {
                     alert($(this).html());
-                });*/
+                });
 
                //4. for ... of:jquery 3.0 版本之后提供的方式
 
